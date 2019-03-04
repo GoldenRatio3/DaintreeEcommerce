@@ -82,9 +82,9 @@ def pay(request):
 	Sends an email confirming order to the logged in customer 
 
 	constants in setting:
-	EMAIL_HOST = 'smtp.mail.yahoo.com.'
-	EMAIL_HOST_PASSWORD = 'daintree123'
-	EMAIL_HOST_USER = "marcel.riederer@yahoo.com"
+	EMAIL_HOST = 'SMTP_HOST'
+	EMAIL_HOST_PASSWORD = 'PASSWORD'
+	EMAIL_HOST_USER = "EMAIL_HOST"
 	EMAIL_PORT = '465'
 	EMAIL_USE_SSL = True
 
